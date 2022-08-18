@@ -1,9 +1,11 @@
 import './App.css';
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello</header>
+      <header className="App-header">This is a dictionary app</header>
+			<Dictionary />
     </div>
   );
 }
