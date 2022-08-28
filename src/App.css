@@ -17,3 +17,8 @@ body {
 .App {
 	max-width: 1080px;
 }
+
+.App footer {
+	font-size: 12px;
+	margin: 20px;
+}
