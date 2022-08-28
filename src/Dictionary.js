@@ -14,7 +14,6 @@ export default function Dictionary(){
 	}
 
 	function handlePexelsResponse(response) {
-		console.log(response);
 		setPhotos(response.data.photos);
 	}
 
@@ -46,9 +45,8 @@ export default function Dictionary(){
 					suggested word: sunrise, love, inspiration, tea...
 				</div>
 			</section>
-			<Photos photos={photos}/>
+				<Photos photos={photos}/>
 				<Results result={response}/>
-				{/* <Photos photos={photos}/> */}
 		</div>
 	);
 }
