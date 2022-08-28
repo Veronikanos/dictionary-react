@@ -13,3 +13,7 @@ body {
 	text-shadow: 2px 2px 5px rgb(132, 129, 129);
 	font-family: 'Courgette', cursive;
 }
+
+.App {
+	max-width: 1080px;
+}
