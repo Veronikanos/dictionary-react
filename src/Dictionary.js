@@ -23,7 +23,7 @@ export default function Dictionary(){
 	}
 
 	return (
-		<div className="Dictionary">
+		<div className="Dictionary col-11 col-md-6 mx-auto">
 			<section>
 				<form onSubmit={search} >
 					<input type="search" className="form-control" autoFocus={true} onChange={handleSubmit} placeholder="enter your word here..."/>
