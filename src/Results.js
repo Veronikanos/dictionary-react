@@ -1,7 +1,7 @@
 import React from "react";
 import Meanings from "./Meanings";
+import Phonetic from "./Phonetic";
 import "./Results.css";
-// import Synonyms from "./Synonyms";
 
 export default function Results(props){
 	console.log(props.result);
@@ -10,12 +10,18 @@ export default function Results(props){
 		<div className="Results">
 			<section>
 				<h2>{props.result.word}</h2>
+				{props.result.phonetics.map(function (phonetic, index) {
+					return (
+						<div key={index}>
+							<Phonetic phonetic={phonetic}></Phonetic>
+						</div>
+					);
+				})}
 			</section>
 			{props.result.meanings.map(function (res, index) {
 				return (
 					<section key={index}>
 						<Meanings meaning={res}/>
-						{/* <Synonyms synonyms={res.synonyms} /> */}
 					</section>
 				)
 				
