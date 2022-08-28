@@ -4,8 +4,10 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">This is a dictionary app</header>
-			<Dictionary />
+			<section>
+				<header className="App-header">Dictionary</header>
+				<Dictionary />
+			</section>
     </div>
   );
 }

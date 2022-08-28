@@ -1,0 +1,15 @@
+.Meanings .example {
+	opacity: 0.6;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+.Meanings h4 {
+	/* font-weight: bold; */
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+.Meanings {
+	text-align: left;
+}
