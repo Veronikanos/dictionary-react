@@ -2,7 +2,7 @@ import axios from "axios";
 import React, {useState} from "react";
 import Results from "./Results";
 import Photos from "./Photos";
-import "./Dictionary.css";
+import "../style/Dictionary.css";
 
 export default function Dictionary(){
 	let [keyword, setKeyword] = useState("");
