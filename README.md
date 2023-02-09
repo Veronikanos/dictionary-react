@@ -6,7 +6,10 @@ Live page is [here](https://superlative-gelato-fb1834.netlify.app)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 #### Start page
+![Screenshot_16](https://user-images.githubusercontent.com/49239848/217819034-5b0c48a7-7fce-4a6b-889e-101eb9fc2252.png)
 
+#### Example of a query result
+![Screenshot_17](https://user-images.githubusercontent.com/49239848/217819085-16528588-91cc-46cd-8f2d-5fddbef3a0c1.png)
 
 ---
 
